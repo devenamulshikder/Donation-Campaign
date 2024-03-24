@@ -8,7 +8,7 @@ const CategoryList = () => {
     const {data, loading} = useDonationData();
     // console.log(data);
   return (
-    <div className='grid grid-cols-4 gap-10 mt-16 max-w-7xl mx-auto'>
+    <div className='grid lg:grid-cols-4 lg:gap-10 gap-5 mt-16 max-w-7xl mx-auto p-4 lg:p-0'>
         
         {
             data.map(item=> <Card item={item}></Card>)

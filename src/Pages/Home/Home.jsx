@@ -3,7 +3,7 @@ import CategoryList from "../../components/CategoryList/CategoryList";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <Banner></Banner>
       <CategoryList></CategoryList>
     </div>

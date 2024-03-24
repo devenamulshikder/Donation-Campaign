@@ -6,8 +6,8 @@ const Banner = () => {
      const [email, setEmail] = React.useState("");
      const onChange = ({ target }) => setEmail(target.value);
   return (
-    <div className="h-[450px] relative border border-green-500 flex flex-col justify-center items-center">
-        <div className="absolute inset-0 bg-[url('/images/bg.png')] bg-cover bg-center bg-no-repeat opacity-20">
+    <div className=" p-4 lg:p-0 mt-8 h-[450px] relative border rounded-2xl flex flex-col justify-center items-center">
+        <div className="absolute inset-0 bg-[url('/images/bg.png')] bg-cover bg-center bg-no-repeat rounded-2xl opacity-20">
 
         </div>
       <Typography className="mb-5" variant="h2">
